@@ -1,0 +1,7 @@
+.numbers div:nth-child(2n+0) {
+  color: red;
+}
+
+.numbers div:nth-child(2n+1) {
+  background-color: azure;
+}
