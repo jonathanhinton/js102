@@ -19,7 +19,7 @@ function sortNumber(a, b) {
 }
 
 //this function takes the user input and splits it at the comma and creates an array
-//I could not get the numArray in the function to exist outside of the function
+//it returns the function find_sort to print the numbers higher than 25 to the DOM
 function getUserInput(userInput) {
   userInput = document.getElementById("numberInput").value;
   userString = userInput.split(", ").sort(sortNumber);
