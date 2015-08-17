@@ -1,3 +1,9 @@
+
+/*  13. Give each <div> a class of "number".
+  14. Write a CSS class that changes the font color of the even elements to red.
+  15. Write a CSS class that changes the background color of the odd elements to azure.
+*/
+
 #aPlaceToCallHome div:nth-child(2n+0) {
   color: red;
 }
